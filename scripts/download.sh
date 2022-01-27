@@ -1,5 +1,6 @@
-get_bmark_pilot(){
-    # downloads files from NeMO, github and google drive.
+bmark_pilot(){
+# downloads files from NeMO, github and google drive to specified folder
+# example: $ bmark_pilot ./data
 
     TARGET_DIR="$1/"
     echo "Downloading data to "$TARGET_DIR

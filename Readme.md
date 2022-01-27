@@ -14,7 +14,7 @@ conda install python==3.8
 conda install seaborn scikit-learn statsmodels numba pytables
 conda install -c conda-forge python-igraph leidenalg
 pip install scanpy
-pip install gdown timebudget autopep8 
+pip install gdown timebudget autopep8 toml
 pip install jupyterlab
 pip install -e .
 ```
@@ -24,6 +24,7 @@ pip install -e .
 # Download
 source scripts/download_scripts.sh
 get_bmark_pilot /allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat/pilot/
+
 
 # Process with make_pilot.py in ./bmark/utils/
 python -m make_pilot --data_path /allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat/pilot --min_sample_thr 20
