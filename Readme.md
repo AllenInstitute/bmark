@@ -25,9 +25,9 @@ pip install -e .
 source scripts/download_scripts.sh
 get_bmark_pilot /allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat/pilot/
 
-
-# Process with make_pilot.py in ./bmark/utils/
-python -m make_pilot --data_path /allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat/pilot --min_sample_thr 20
+# Processing raw data with codes in ./scripts
+python -m make_pilot_h5ad --data_path /allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat/pilot --min_sample_thr 20 --write_h5ad 1
+python -m make_pilot_markers --data_path /allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat/pilot --write_csv 1
 ```
 
  ### Contributors
