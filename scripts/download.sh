@@ -1,4 +1,4 @@
-bmark_pilot(){
+get_bmark_pilot(){
 # downloads files from NeMO, github and google drive to specified folder
 # example: $ bmark_pilot ./data
 
