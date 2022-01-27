@@ -25,7 +25,7 @@ def get_kfold_ind(obs, stratify_by='cluster_label', fold=0, n_folds=10):
 
     # get all k-fold cross validation splits (k = n_folds)
     if stratify_by is not None:
-        skf = StratifiedKFold(n_splits=2, random_state=SEED, shuffle=True)
+        skf = StratifiedKFold(n_splits=n_folds, random_state=SEED, shuffle=True)
         all_folds = [{'train_ind': x, 'val_ind': y} for x, y in skf.split(
             X=np.zeros(shape=obs[stratify_by].shape), y=obs[stratify_by])]
 
