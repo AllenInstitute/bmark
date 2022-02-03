@@ -30,5 +30,14 @@ python -m make_pilot_h5ad --data_path /allen/programs/celltypes/workgroups/mouse
 python -m make_pilot_markers --data_path /allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat/pilot --write_csv 1
 ```
 
+### Config
+Create a `config.toml` file at the repository root with appropriate `data_dir` path:
+```
+['pilot']
+data_dir = '/allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat/pilot/'
+```
+ - `config.toml` is accessed through `load_config` in `bmark.utils.config`. 
+ - Use `config.toml` to include any other hardcoded paths, needed for notebooks/ scripts to work correctly.
+
  ### Contributors
 Rohan Gala, Nelson Johnson, Raymond Sanchez, Kyle Travaglini
