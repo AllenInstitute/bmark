@@ -38,7 +38,7 @@ def order_cat(obs, cat='cluster', by='id'):
     return obs, cat_type
 
 
-def plot_confidence(df):
+def plot_confidence(df, figsize=(30, 6)):
     """plot confidence for true and false assignments
 
     Args:
@@ -47,7 +47,7 @@ def plot_confidence(df):
 
     df['correct'] = df['true'] == df['pred']
     sns.set()
-    f, ax = plt.subplots(1, 1, figsize=(30, 6))
+    f, ax = plt.subplots(1, 1, figsize=figsize)
     ax = sns.boxplot(data=df,
                      x="true",
                      y="conf",
@@ -109,14 +109,14 @@ def get_scores(df):
     return result
 
 
-def plot_cluster_scores(df):
-    f, ax = plt.subplots(1,1,figsize=(30,6))
+def plot_scores(df, figsize=(30,6)):
+    f, ax = plt.subplots(1,1,figsize=figsize)
     ax = sns.barplot(data=df, x="label",y="precision",color="lightblue")
     ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
     ax.set(xlabel='Cluster', ylabel='Precision')
     plt.show()
 
-    f, ax = plt.subplots(1,1,figsize=(30,6))
+    f, ax = plt.subplots(1,1,figsize=figsize)
     ax = sns.barplot(data=df, x="label",y="recall",color="lightblue")
     ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
     ax.set(xlabel='Cluster', ylabel='Recall')
