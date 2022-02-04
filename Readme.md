@@ -14,7 +14,7 @@ conda install python==3.8
 conda install seaborn scikit-learn statsmodels numba pytables
 conda install -c conda-forge python-igraph leidenalg
 pip install scanpy
-pip install gdown timebudget autopep8 toml
+pip install gdown timebudget autopep8 toml sklearn
 pip install jupyterlab
 pip install -e .
 ```
