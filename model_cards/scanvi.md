@@ -1,4 +1,4 @@
-# Model card for `mlp_nsf`
+# Model card for `scANVI`
 
 ### Model details
 
