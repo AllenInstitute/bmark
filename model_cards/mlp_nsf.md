@@ -2,7 +2,7 @@
 
 ### Model details
 
-<img align='center' height='328' width='648' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_nsf schematic.png"/>
+<img align='center' height='328' width='648' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_nsf schematic.png"/>
 
 
 - Summary:
@@ -35,29 +35,29 @@
 
 #### Cluster level metrics: 
 1. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_confidence_cluster.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_confidence_cluster.png"/>
 
 2. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_recall_cluster.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_recall_cluster.png"/>
 
 3. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_precision_cluster.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_precision_cluster.png"/>
 
 4. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_confusion_cluster.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_confusion_cluster.png"/>
 
 #### Subclass level metrics: 
 1. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_confidence_subclass.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_confidence_subclass.png"/>
 
 2. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_recall_subclass.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_recall_subclass.png"/>
 
 3. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_precision_subclass.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_precision_subclass.png"/>
 
 4. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="mlp_confusion_subclass.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/mlp_confusion_subclass.png"/>
 
 
 ### Recommendations and caveats
