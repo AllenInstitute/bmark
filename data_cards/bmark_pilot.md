@@ -5,6 +5,7 @@
     - Mouse primary motor cortex (M1) single nuclei data
     - 10X v3 Chromium measurements, UMI counts for `40,026` nuclei x `31053` genes
     - Annotations include 82 cell type clusters, 19 subclasses, and 4 classes. 
+    - Each cell type cluster has at least `20` members. (nuclei belonging to clusters with low membership were discarded)
     
  - Primary data sources:
     - [Taxonomy](https://github.com/AllenInstitute/MOp_taxonomies_ontology): Hierarchy of cell type, subclass and class labels + NS Forest marker genes.
@@ -14,9 +15,17 @@
  - Format: [AnnData (v 0.7)](https://anndata.readthedocs.io/en/latest/release-notes.html#version-0-7) h5ad
  - Publication: --
 - Maintainers: Rohan Gala, Raymond Sanchez
+- Scripted end-to-end assembly: Yes
+
+### Intended purpose:
+ - Supervised classification
+ - Multi-label classification
+ - Study classification model confidence calibration
+ - Study factors influencing model confidence
+ - Study cluster, subclass identifiability
 
 ### Data integrity:
- - [Exploratory notebook]()
+ - [Exploratory notebook](https://github.com/AllenInstitute/bmark/blob/main/notebooks/00_explore_pilot.ipynb)
  - Validation scripts 
 
 ### Metadata data frame:
