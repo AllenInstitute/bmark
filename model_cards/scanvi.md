@@ -2,22 +2,24 @@
 
 ### Model details
 
-Schematic:
+Iterativly applies model illustrated below
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/scanvi_schematic.png"/>
 
-
-- Summary: --
+### Summary: 
  - Developer: Kyle Travaglini
- - Repository: --
- - Training weights:  --
  - Publication: [Xu et al. 2021](https://www.embopress.org/doi/abs/10.15252/msb.20209620)
+ - Model takes unormalized UMIs and an ordered list of labels to predict and hierarchically projects cells into a latent space based on expression of selected features (see below) and annotates “Unknown” cells with 1st label, splits by that feature, projects selected cells into latent space based on newly selected features and annotates “Unknown” cells with next label and so forth.
+ - Features can be selected based on n highly variable genes (HVGs) and/or n differentially expressed genes (DEGs) among predicted labels in reference cells. Defaults are to use 5000 HVGs and 500 HVGs per group.
+ - Latent space contains 10 dimensions by default and can be used to construct neighbor graphs for clustering and UMAP embedding.
+ - Model is a variational autoencoder, see published methods for architectural details.
 
 ### Intended use
  - Primary uses: 
-    1. Classification of scRNA-seq samples into cell types and subclasses
-    2. Baseline for comparison with other classification models 
+    1. Integration of datasets across categorical and continuuous covariates (e.g. donors, technologies, species)
+    2. Classification of scRNA-seq samples into classes, subclasses, and clusters
+    3. Baseline for comparison with other classification models
  - Users: AIBS scientists and bioinformaticians
- - Out of scope: Inference on other modalities (e.g. SMART-seq), or regions (e.g. V1), or species (e.g. primate)
+ - Out of scope: Regions, species, and technologies model was not trained on (e.g. V1, primates, or SmartSeq)
 
 ### Metrics
  - Cross entropy on validation set
@@ -59,3 +61,4 @@ Schematic:
 
 
 ### Recommendations and caveats
+- Model can perform poorly on lowly abundant populations or those in expression gradients without positive markers.
