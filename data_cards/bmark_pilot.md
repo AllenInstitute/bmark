@@ -6,6 +6,12 @@
     - 10X v3 Chromium measurements, UMI counts for `40,026` nuclei x `31053` genes
     - Annotations include 82 cell type clusters, 19 subclasses, and 4 classes. 
     - Each cell type cluster has at least `20` members. (nuclei belonging to clusters with low membership were discarded)
+
+Distribution by `cluster_label`:<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./cluster_distribution.png"/>
+
+Distribution by `subclass_label`:<br>
+<img align='center' width=400 style="padding:10px 0px 10px 0px; border-radius: 0%" src="./subclass_distribution.png"/>
     
  - Primary data sources:
     - [Taxonomy](https://github.com/AllenInstitute/MOp_taxonomies_ontology): Hierarchy of cell type, subclass and class labels + NS Forest marker genes.
