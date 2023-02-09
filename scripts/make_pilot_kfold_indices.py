@@ -22,6 +22,7 @@ def main(write_csv=0):
         df_list.append(pd.DataFrame(dict(indices=val_ind, split_type="val", fold=i)))
 
     df = pd.concat(df_list)
+    df.reset_index(inplace=True,drop=True)
     df.to_csv(paths["pilot"]["data_dir"] / "10fold_train_val_indices.csv")
 
 if __name__ == '__main__':
