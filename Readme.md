@@ -67,4 +67,4 @@ data_dir = '/allen/programs/celltypes/workgroups/mousecelltypes/benchmarking/dat
  - Use `config.toml` to include any other hardcoded paths, needed for notebooks/ scripts to work correctly.
 
  ### Contributors
-Rohan Gala, Nelson Johnson, Raymond Sanchez, Kyle Travaglini
+Rohan Gala, Nelson Johansen, Raymond Sanchez, Kyle Travaglini
