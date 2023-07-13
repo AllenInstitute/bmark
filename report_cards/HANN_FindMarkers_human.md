@@ -10,7 +10,7 @@ In summary, `HANN (FindMarkers)` was able to achieve **strong accuracy** at **al
     - Inputs `X` are log(CPM) normalized expression values of marker genes.
     - Hierarchy was encoded by Class, Subclass, Supertype.
     - `Confidence` values were derived via bootstraping.
- - Runtime: 3.03 Hours
+ - Runtime: 3.5 Hours
  - Version: X.Y.Z
  - Repository: [TBD](TBD)
  - Publication: --
