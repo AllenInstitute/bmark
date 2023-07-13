@@ -2,12 +2,12 @@
 
 ### Overview
 
-The accuracy of cell type mapping using the Hierarchical approximate nearest neighbor (HANN) algorithm was evaluated against the SEA-AD human MTG benchmark. 
+The accuracy of cell type mapping using the Hierarchical approximate nearest neighbor (HANN) algorithm was evaluated against the SEA-AD human MTG benchmark.
 
 In summary, `HANN` was able to achieve **strong accuracy** at **all** resolution of the human MTG taxonomy containing donor-specific batch effects.
 
 - Summary:
-    - Inputs `X` are log(CPM) normalized expression values of marker genes. 
+    - Inputs `X` are log(CPM) normalized expression values of marker genes.
     - Hierarchy was encoded by Class, Subclass, Supertype.
     - `Confidence` values were derived via bootstraping.
  - Runtime: 3.03 Hours
@@ -15,14 +15,14 @@ In summary, `HANN` was able to achieve **strong accuracy** at **all** resolution
  - Repository: [TBD](TBD)
  - Publication: --
 
-Annotaion | F1-score 
---- | --- 
-Class | 0.999 
-Subclass | 0.985 
-Supertype | 0.859 
+Annotaion | F1-score
+--- | ---
+Class | 0.999
+Subclass | 0.985
+Supertype | 0.859
 
 ### Tasks
- - Primary tasks: 
+ - Primary tasks:
     1. Classification of scRNA-seq samples into Supertypes.
     2. Determining generalization of `HANN` classification to samples from new donors under varying degrees of Alzheimers pathology.
  - Users: AIBS scientists and community mapping tool users.
@@ -43,11 +43,11 @@ Supertype | 0.859
         - Intermediate
         - High
 
-### Quantitative analysis 
+### Quantitative analysis
 
 Here we evaluate `HANN` at predicting high quality samples for each of the query datasets.
 
-#### Supertype metrics: 
+#### Supertype metrics:
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_all_F1_score.png"/>
 
@@ -63,7 +63,7 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 5. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_mat.png"/>
 
-#### Subclass level metrics: 
+#### Subclass level metrics:
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_all_F1_score.png"/>
 
@@ -79,7 +79,7 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 5. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_all_conf_mat.png"/>
 
-#### Subclass level metrics: 
+#### Subclass level metrics:
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_F1_score.png"/>
 
@@ -92,8 +92,7 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 4. Label-wise precision<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_precision.png"/>
 
-5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_conf_mat.png"/>
+5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_conf_mat.png"/>
 
 ### Donor effect analysis
 
@@ -106,7 +105,6 @@ Here we evaluate how `HANN` predicts labels for low-quality samples in the query
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_low_qc_conf_mat.png"/>
 
 ### Recommendations and caveats
- - At the **Class** and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors. 
+ - At the **Class** and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors.
  - `HANN` robustly classify samples under varying conditions imparting donor and disease specific changes in gene expression.
  - When `HANN` makes a mistake at the **Supertype** level, the predicted label is typically within the same **Subclass**.
-
