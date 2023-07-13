@@ -1,6 +1,6 @@
 # Report card for `HANN` on `Human SEA-AD` benchmark
 
-### Benchmark overview
+### Overview
 
 The accuracy of cell type mapping using the Hierarchical approximate nearest neighbor (HANN) algorithm was evaluated against the SEA-AD human MTG benchmark. 
 
@@ -48,53 +48,62 @@ Supertype | 0.859
 Here we evaluate `HANN` at predicting high quality samples for each of the query datasets.
 
 #### Supertype metrics: 
-1. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Supertype_HANN_all_F1_score.png"/>
+1. Label-wise F1-score<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_all_F1_score.png"/>
 
-2. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Supertype_HANN_all_recall.png"/>
+2. Confidence values for correctly and incorrectly assigned labels<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_box.png"/>
 
-3. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Supertype_HANN_all_precision.png"/>
+3. Label-wise recall<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_all_recall.png"/>
 
-4. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Supertype_HANN_all_conf_mat.png"/>
+4. Label-wise precision<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_all_precision.png"/>
 
-#### Subclass level metrics: 
-1. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Subclass_HANN_all_F1_score.png"/>
-
-2. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Subclass_HANN_all_recall.png"/>
-
-3. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Subclass_HANN_all_precision.png"/>
-
-4. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Subclass_HANN_all_conf_mat.png"/>
+5. Confusion matrix (row-normalized)<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_mat.png"/>
 
 #### Subclass level metrics: 
-1. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Class_HANN_all_F1_score.png"/>
+1. Label-wise F1-score<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_all_F1_score.png"/>
 
-2. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Class_HANN_all_recall.png"/>
+2. Confidence values for correctly and incorrectly assigned labels<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_all_conf_box.png"/>
 
-3. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Class_HANN_all_precision.png"/>
+3. Label-wise recall<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_all_recall.png"/>
 
-4. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Class_HANN_all_conf_mat.png"/>
+4. Label-wise precision<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_all_precision.png"/>
+
+5. Confusion matrix (row-normalized)<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_all_conf_mat.png"/>
+
+#### Subclass level metrics: 
+1. Label-wise F1-score<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_F1_score.png"/>
+
+2. Confidence values for correctly and incorrectly assigned labels<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_conf_box.png"/>
+
+3. Label-wise recall<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_recall.png"/>
+
+4. Label-wise precision<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_precision.png"/>
+
+5. Confusion matrix (row-normalized)<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Class_HANN_all_conf_mat.png"/>
 
 ### Donor effect analysis
 
 Here we evaluate `HANN` at correctly predicting the Subclass label for increasingly sever Alzheimers pathology.
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Subclass_HANN_cond_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_cond_conf_box.png"/>
 
 ### Low quality sample analysis
 
 Here we evaluate how `HANN` predicts labels for low-quality samples in the query data with predefined QC flags.
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human/HANN/Supertype_HANN_low_qc_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Supertype_HANN_low_qc_conf_mat.png"/>
 
 ### Recommendations and caveats
  - At the **Class** and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors. 
