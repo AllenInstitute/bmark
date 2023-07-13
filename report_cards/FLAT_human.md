@@ -101,10 +101,10 @@ Here we evaluate `FLAT` at correctly predicting the Subclass label for increasin
 
 Annotation | Query | F1-score
 --- | --- | ---
-Supertype | Reference_MTG_RNASeq_benchmark | 0.988
+Supertype | Reference_MTG_RNASeq_benchmark | 0.986
 Supertype | Not_AD_MTG_RNASeq_benchmark | 0.988
 Supertype | Low_MTG_RNASeq_benchmark | 0.987
-Supertype | Intermediate_MTG_RNASeq_benchmark | 0.985
+Supertype | Intermediate_MTG_RNASeq_benchmark | 0.986
 Supertype | High_MTG_RNASeq_benchmark | 0.983
 
 ### Low quality sample analysis
