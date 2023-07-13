@@ -2,7 +2,7 @@
 
 ## Overview
 
-Detailed model evaluation on curated benchmark datasets are stored here to inform users about model biases and accuracy at mapping labels from **Allen Institute** taxonomies.
+Detailed model evaluation on curated benchmark datasets are stored here to inform users about model biases and accuracy at mapping labels using **Allen Institute** taxonomies as reference.
 
 ## Evaluations: `human SEA-AD` benchmark
 
