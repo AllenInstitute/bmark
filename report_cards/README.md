@@ -21,10 +21,10 @@ HANN (FindMarkers) | mouse WB | 07/12/2023 | |
 FLAT | mouse WB | 07/12/2023 | |
 
 ## Benchmarks
-More details about the benchmark data can be found [here](LINK)
+More details about the benchmark data can be found [here](LINK). (Link broken until data cards setup)
 
 ## Models
-More details about the models benchmarked can be found [here](LINK)
+More details about the models benchmarked can be found [here](LINK). (Link broken until model cards setup)
 
 ## Scripts
 
