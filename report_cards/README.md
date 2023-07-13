@@ -9,6 +9,7 @@ Detailed model evaluation on curated benchmark datasets are stored here to infor
 Model | Benchmark | Date | Runtime | Score [0-1]
 --- | --- | --- | --- | ---
 HANN | human MTG SEA-AD | 07/12/2023 | 3 Hours | 0.98
+HANN (FindMarkers) | human MTG SEA-AD | 07/12/2023 | 3 Hours | 0.99
 FLAT | human MTG SEA-AD | 07/12/2023 | 1.8 Hours | 0.98
 
 ## Evaluations: `mouse WB` benchmark
@@ -16,6 +17,7 @@ FLAT | human MTG SEA-AD | 07/12/2023 | 1.8 Hours | 0.98
 Model | Benchmark | Date | Runtime | Score [0-1]
 --- | --- | --- | --- | ---
 HANN | mouse WB | 07/12/2023 | |
+HANN (FindMarkers) | mouse WB | 07/12/2023 | | 
 FLAT | mouse WB | 07/12/2023 | |
 
 ## Benchmarks
