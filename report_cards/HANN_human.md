@@ -1,6 +1,6 @@
 # Report card for `HANN` on `Human SEA-AD` benchmark
 
-### Benchmark overview
+### Overview
 
 The accuracy of cell type mapping using the Hierarchical approximate nearest neighbor (HANN) algorithm was evaluated against the SEA-AD human MTG benchmark. 
 
