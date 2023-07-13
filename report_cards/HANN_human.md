@@ -99,6 +99,14 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 Here we evaluate `HANN` at correctly predicting the Subclass label for increasingly sever Alzheimers pathology.
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="./assets/human_SEA-AD/HANN/Subclass_HANN_cond_conf_box.png"/>
 
+Annotation | Query | F1-score
+--- | --- | ---
+Supertype | Reference_MTG_RNASeq_benchmark | 0.988
+Supertype | Not_AD_MTG_RNASeq_benchmark | 0.988
+Supertype | Low_MTG_RNASeq_benchmark | 0.987
+Supertype | Intermediate_MTG_RNASeq_benchmark | 0.985
+Supertype | High_MTG_RNASeq_benchmark | 0.983
+
 ### Low quality sample analysis
 
 Here we evaluate how `HANN` predicts labels for low-quality samples in the query data with predefined QC flags.
