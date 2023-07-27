@@ -15,14 +15,6 @@ In summary, `HANN` was able to achieve **strong accuracy** at **class, neighborh
  - Repository: [TBD](TBD)
  - Publication: --
 
-Annotaion | F1-score
---- | ---
-Class | 0.999
-Neighborhood | 0.955
-Subclass | 0.955
-Mini atlas label | 0.762
-Cluster | 0.711
-
 ### Tasks
  - Primary tasks:
     1. Classification of scRNA-seq samples into whole brain clusters.
@@ -50,7 +42,15 @@ Cluster | 0.711
 
 ### Quantitative analysis
 
-Here we evaluate `HANN` at predicting high quality samples for each of the query datasets.
+Here we evaluate `HANN` at predicting high quality samples for each of the query datasets. Each annotation level can be expanded to reveal addition evaluation metrics.
+
+Annotaion | F1-score
+--- | ---
+Class | 0.999
+Neighborhood | 0.955
+Subclass | 0.955
+Mini atlas label | 0.762
+Cluster | 0.711
 
 <details>
 <summary> Class level metrics: </summary>
