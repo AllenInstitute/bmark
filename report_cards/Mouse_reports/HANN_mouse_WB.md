@@ -73,16 +73,16 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_WB_neighborhood_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_WB_neighborhood_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_WB_neighborhood_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_WB_neighborhood_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_mat.png"/>
 
 
 #### Subclass level metrics:
