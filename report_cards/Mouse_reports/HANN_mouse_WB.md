@@ -53,7 +53,7 @@ Cluster | 0.711
 Here we evaluate `HANN` at predicting high quality samples for each of the query datasets.
 
 <details>
-<summary> #### Class level metrics: </summary>
+<summary> Class level metrics: </summary>
 
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_F1_score.png"/>
@@ -71,7 +71,9 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 
 </details>
 
-#### Neighborhood level metrics:
+<details>
+<summary> Neighborhood level metrics: </summary>
+
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_F1_score.png"/>
 
@@ -87,8 +89,12 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 5. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_mat.png"/>
 
+</details>
 
-#### Subclass level metrics:
+
+<details>
+<summary> Subclass level metrics: </summary>
+
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_F1_score.png"/>
 
@@ -104,8 +110,12 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 5. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_conf_mat.png"/>
 
+</details>
 
-#### Mini atlas metrics:
+
+<details>
+<summary> Mini atlas metrics: </summary>
+
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_F1_score.png"/>
 
@@ -121,7 +131,11 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 5. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_conf_mat.png"/>
 
-#### Cluster metrics:
+</details>
+
+<details>
+<summary> Cluster metrics: </summary>
+
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_F1_score.png"/>
 
@@ -137,10 +151,11 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 5. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_conf_mat.png"/>
 
+</details>
 
-### Donor effect analysis
+### Sequencing technology effect analysis
 
-Here we evaluate `HANN` at correctly predicting the Subclass label for increasingly sever Alzheimers pathology.
+Here we evaluate `HANN` at correctly predicting the Subclass label for multiple sequencing technologies.
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Ground_truth_subclass_HANN_WB_cond_conf_box.png"/>
 
 Annotation | Query | F1-score
