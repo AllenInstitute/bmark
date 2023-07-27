@@ -58,81 +58,81 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_FindMarkers_class_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_FindMarkers_class_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_FindMarkers_class_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_precision.png"/>
 
-5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_FindMarkers_class_conf_mat.png"/>
+5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_conf_mat.png"/>
 
 #### Neighborhood level metrics:
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_HANN_WB_FindMarkers_neighborhood_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_HANN_WB_neighborhood_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_WB_FindMarkers_neighborhood_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_WB_neighborhood_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_WB_FindMarkers_neighborhood_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_WB_neighborhood_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_WB_FindMarkers_neighborhood_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_WB_neighborhood_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_WB_FindMarkers_neighborhood_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighorhood_WB_neighborhood_conf_mat.png"/>
 
 
 #### Subclass level metrics:
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_FindMarkers_subclass_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_FindMarkers_subclass_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_FindMarkers_subclass_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_FindMarkers_subclass_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_FindMarkers_subclass_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_conf_mat.png"/>
 
 
 #### Mini atlas metrics:
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_FindMarkers_mini_atlas_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_FindMarkers_mini_atlas_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_FindMarkers_mini_atlas_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_FindMarkers_mini_atlas_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_FindMarkers_mini_atlas_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_conf_mat.png"/>
 
 #### Cluster metrics:
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_FindMarkers_all_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_FindMarkers_all_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_FindMarkers_all_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_FindMarkers_all_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_FindMarkers_all_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_conf_mat.png"/>
 
 
 ### Donor effect analysis
