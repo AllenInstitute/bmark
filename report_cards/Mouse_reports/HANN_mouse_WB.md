@@ -52,8 +52,9 @@ Cluster | 0.711
 
 Here we evaluate `HANN` at predicting high quality samples for each of the query datasets.
 
+<details>
+<summary> #### Class level metrics: </summary>
 
-#### Class level metrics:
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_F1_score.png"/>
 
@@ -67,6 +68,8 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_conf_mat.png"/>
+
+</details>
 
 #### Neighborhood level metrics:
 1. Label-wise F1-score<br>
