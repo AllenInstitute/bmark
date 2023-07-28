@@ -6,19 +6,19 @@ Detailed model evaluation on curated benchmark datasets are stored here to infor
 
 ## Evaluations: `human SEA-AD` benchmark
 
-Model | Benchmark | Date | Runtime | Score [0-1]
+Model | Benchmark | Date | Runtime 
 --- | --- | --- | --- | ---
-[HANN](./HANN_human.md) | human MTG SEA-AD | 07/12/2023 | 3 Hours | 0.98
-[HANN (FindMarkers)](./HANN_FindMarkers_human.md) | human MTG SEA-AD | 07/12/2023 | 3 Hours | 0.99
-[FLAT](./FLAT_human.md) | human MTG SEA-AD | 07/12/2023 | 1.8 Hours | 0.98
+[HANN](./HANN_human.md) | human MTG SEA-AD | 07/12/2023 | 3 Hours 
+[HANN (FindMarkers)](./HANN_FindMarkers_human.md) | human MTG SEA-AD | 07/12/2023 | 3 Hours
+[FLAT](./FLAT_human.md) | human MTG SEA-AD | 07/12/2023 | 1.8 Hours 
 
 ## Evaluations: `mouse WB` benchmark
 
-Model | Benchmark | Date | Runtime | Score [0-1]
+Model | Benchmark | Date | Runtime
 --- | --- | --- | --- | ---
 HANN | mouse WB | 07/12/2023 | |
 HANN (FindMarkers) | mouse WB | 07/12/2023 | | 
-FLAT | mouse WB | 07/12/2023 | |
+FLAT | mouse WB | 07/12/2023 | 0.76 | 
 
 ## Benchmarks
 More details about the benchmark data can be found [here](LINK). (Link broken until data cards setup)
