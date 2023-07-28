@@ -158,15 +158,15 @@ Cluster | 0.711
 Here we evaluate `HANN` at correctly predicting the Subclass label for multiple sequencing technologies.
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Ground_truth_subclass_HANN_WB_cond_conf_box.png"/>
 
-Annotation | Query | F1-score                         Annotation | Query | F1-score   
---- | --- | ---                                       --- | --- | ---
-Subclass | 10X_cells_v3_AIBS | 0.972                  Subclass | 10X_cells_v3_AIBS | 0.972
-Subclass | 10X_nuclei_v3_AIBS | 0.943
-Subclass | 10X_nuclei_v3_Broad | 0.966
-Subclass | 10X_cells_v2_AIBS | 0.976
-Subclass | 10X_nuclei_v2_AIBS | 0.918
-Subclass | SmartSeq_cells_AIBS | 0.971
-Subclass | SmartSeq_nuclei_AIBS | 0.961
+Annotation | Query | F1-score | | Annotation | Query | F1-score          
+--- | --- | --- | --- | --- | --- | ---                  
+Subclass | 10X_cells_v3_AIBS | 0.972 | | Subclass | 10X_cells_v3_AIBS | 0.972        
+Subclass | 10X_nuclei_v3_AIBS | 0.943 | | Subclass | 10X_cells_v3_AIBS | 0.972
+Subclass | 10X_nuclei_v3_Broad | 0.966 | | Subclass | 10X_cells_v3_AIBS | 0.972
+Subclass | 10X_cells_v2_AIBS | 0.976 | | Subclass | 10X_cells_v3_AIBS | 0.972
+Subclass | 10X_nuclei_v2_AIBS | 0.918 | | Subclass | 10X_cells_v3_AIBS | 0.972
+Subclass | SmartSeq_cells_AIBS | 0.971 | | Subclass | 10X_cells_v3_AIBS | 0.972
+Subclass | SmartSeq_nuclei_AIBS | 0.961 | | Subclass | 10X_cells_v3_AIBS | 0.972
 
 
 ### Low quality sample analysis
