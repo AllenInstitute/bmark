@@ -156,7 +156,6 @@ Cluster | 0.711
 ### Sequencing technology effect analysis
 
 Here we evaluate `HANN` at correctly predicting the Subclass label for multiple sequencing technologies.
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Ground_truth_subclass_HANN_WB_cond_conf_box.png"/>
 
 Query | Annotation | F1-score | | Annotation | F1-score          
 --- | --- | --- | --- | --- | ---                  
@@ -168,15 +167,8 @@ Query | Annotation | F1-score | | Annotation | F1-score
 SmartSeq_cells_AIBS | Subclass | 0.971 | | Cluster | 0.812
 SmartSeq_nuclei_AIBS | Subclass | 0.961 | | Cluster | 0.803
 
-
-### Low quality sample analysis
-
-Here we evaluate how `HANN` predicts labels for low-quality samples in the query data with predefined QC flags.
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_low_qc_conf_mat.png"/>
-
-## Plot confidence scores for low-qc vs. normal samples.
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_cond_conf_box.png"/>
 
 ### Recommendations and caveats
- - At the **Class** and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors.
+ - At the **Class**, **Neighborhood**, and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors.
  - `HANN` robustly classify samples under varying conditions imparting donor and disease specific changes in gene expression.
- - When `HANN` makes a mistake at the **Supertype** level, the predicted label is typically within the same **Subclass**.
