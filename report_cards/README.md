@@ -16,9 +16,9 @@ Model | Benchmark | Date | Runtime
 
 Model | Benchmark | Date | Runtime
 --- | --- | --- | --- 
-HANN | mouse WB | 07/12/2023 | |
+HANN | mouse WB | 07/12/2023 | 0.76 | 
 HANN (FindMarkers) | mouse WB | 07/12/2023 | | 
-FLAT | mouse WB | 07/12/2023 | 0.76 | 
+FLAT | mouse WB | 07/12/2023 | |
 
 ## Benchmarks
 More details about the benchmark data can be found [here](LINK). (Link broken until data cards setup)
