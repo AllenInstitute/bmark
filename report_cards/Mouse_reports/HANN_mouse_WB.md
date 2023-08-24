@@ -112,27 +112,6 @@ Cluster | 0.711
 
 </details>
 
-
-<details>
-<summary> Mini atlas metrics: </summary>
-
-1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_F1_score.png"/>
-
-2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_conf_box.png"/>
-
-3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_recall.png"/>
-
-4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_precision.png"/>
-
-5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/mini_label_HANN_WB_mini_atlas_conf_mat.png"/>
-
-</details>
-
 <details>
 <summary> Cluster metrics: </summary>
 
